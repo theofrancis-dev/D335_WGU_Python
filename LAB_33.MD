@@ -1,9 +1,9 @@
-##33.1 LAB: Formatted output: No parking sign
+## 33.1 LAB: Formatted output: No parking sign
 
 	print('  NO PARKING')
 	print('2:00 - 6:00 a.m.')
 
-##33.2 LAB: Input: Mad Lib
+## 33.2 LAB: Input: Mad Lib
 
 	first_name = input()
 	generic_location = input()
