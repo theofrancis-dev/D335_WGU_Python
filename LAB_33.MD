@@ -1,9 +1,9 @@
-** 33.1 LAB: Formatted output: No parking sign
+##33.1 LAB: Formatted output: No parking sign
 
 	print('  NO PARKING')
 	print('2:00 - 6:00 a.m.')
 
-**33.2 LAB: Input: Mad Lib
+##33.2 LAB: Input: Mad Lib
 
 	first_name = input()
 	generic_location = input()
@@ -11,7 +11,7 @@
 	plural_noun = input()
 	print(first_name, 'went to', generic_location, 'to buy', whole_number, 'different types of', plural_noun)
 
-** 33.3.1: LAB: Convert to dollars
+## 33.3.1: LAB: Convert to dollars
 
 	q = int(input())
 	d = int(input())
@@ -20,7 +20,7 @@
 	dollars = (q*25 + d*10 + n*5 + p) / 100
 	print(f'Amount: ${dollars:.2f}')
 
-** 33.4 LAB: Driving costs
+## 33.4 LAB: Driving costs
 
 	gas_mile = float (input()) #miles x gallon
 	gas_cost = float (input()) #dollars x gallon
@@ -30,7 +30,7 @@
 	cost_500 = 500 / one_mile_cost
 	print(f'{cost_20:.2f} {cost_75:.2f} {cost_500:.2f}')
 
-** 33.5 LAB: Input and formatted output: Right-facing arrow
+## 33.5 LAB: Input and formatted output: Right-facing arrow
 
 	base_char = input()
 	head_char = input()
@@ -46,7 +46,7 @@
 	print(row2)
 	print(row1)
 
-** 33.6 LAB: Phone number breakdown
+## 33.6 LAB: Phone number breakdown
 
 	phone_number = int(input())
 	last = phone_number % 10000
@@ -54,7 +54,7 @@
 	area = phone_number // 10000000
 	print (f'({area}) {first}-{last}')
 
-** 33.7 LAB: Smallest number
+## 33.7 LAB: Smallest number
 
 	list = []
 	for i in range(3):
@@ -62,7 +62,7 @@
 		list.append(n)
 	print ( min(list) 
 
-** 33.8 LAB: Exact change
+## 33.8 LAB: Exact change
 
 	def add_s (int):
 		if (int) > 1:
@@ -89,7 +89,7 @@
 	elif (amount == 1):
 	 print (f'{amount} Penny')
  
-** 33.9 LAB: Output range with increment of 5
+## 33.9 LAB: Output range with increment of 5
 
 	first = int (input())
 	last = int (input())
@@ -101,7 +101,7 @@
 		print()
 	
 	
-** 33.10.1: LAB: Print string in reverse
+## 33.10.1: LAB: Print string in reverse
 
 	while (True):
 		u_str = input ()
@@ -110,7 +110,7 @@
 		print (u_str[::-1])
 	
 	
-** 33.11 LAB: Fibonacci sequence
+## 33.11 LAB: Fibonacci sequence
 
 	def fibonacci(n):
 		nums = [0,1]    
@@ -125,7 +125,7 @@
 		print(f'fibonacci({start_num}) is {fibonacci(start_num)}')
 	
 
-** 33.12 LAB: Calculate average
+##  33.12 LAB: Calculate average
 	
 	def calc_average(nums):
 		return sum(nums)/len(nums)
@@ -134,7 +134,7 @@
 		nums = [1, 2, 3, 4, 5]
 		print(calc_average(nums))   # calc_average() should return 3.0
 
-**33.13 LAB: Warm up: Text analyzer & modifier
+##  33.13 LAB: Warm up: Text analyzer & modifier
 
 	def get_num_of_characters(input_str):
 		return len(input_str)
@@ -151,7 +151,7 @@
 		print(f'String with no whitespace: {output_without_whitespace(u_str)}')
 		
 
-** 33.14 LAB: Palindrome
+##  33.14 LAB: Palindrome
 
 	u_str = input()
 	rev = (u_str.lower().replace(' ',''))[::-1]
@@ -162,7 +162,7 @@
 		print(f'{u_str} is not a palindrome')
 		
 
-** 33.15 LAB: Parsing dates
+##  33.15 LAB: Parsing dates
 
 	def get_month_as_int(monthString):
 		if monthString == 'January':
@@ -208,7 +208,7 @@
 					print (f'{month}/{day}/{tokens[2]}')
 					
 					
-** 33.16 LAB: Car wash
+##  33.16 LAB: Car wash
 
 	services = { 'Air freshener' : 1 , 'Rain repellent': 2, 'Tire shine' : 2, 'Wax' : 3, 'Vacuum' : 5 }
 	base_wash = 10
@@ -233,7 +233,7 @@
 	print('----')
 	print (f'Total price: ${total}')
 
-** 33.17 LAB: Simple integer division - multiple exception handlers
+##  33.17 LAB: Simple integer division - multiple exception handlers
 
 	try:
 		user_num = int (input())
@@ -245,7 +245,7 @@
 		print('Input Exception:',err)
 		
 		
-** 33.18 LAB: Step counter - exceptions
+##  33.18 LAB: Step counter - exceptions
 
 	def steps_to_miles( steps ):
 		if steps < 0:
@@ -262,7 +262,7 @@
 			print (err)
 			
 
-** 33.19 LAB: Thesaurus
+##  33.19 LAB: Thesaurus
 
 	synonyms = {}   # Define dictionary
 
@@ -303,7 +303,7 @@
 	except Exception as err:
 		print(err)
 		
-** 33.20 LAB: Word frequencies (lists)
+##  33.20 LAB: Word frequencies (lists)
 
 import csv
 
